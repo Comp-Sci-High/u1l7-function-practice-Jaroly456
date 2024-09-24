@@ -54,3 +54,9 @@ console.log(raise)
 // BONUS TASK: 
 // Write a new function that within calls any 2 of the above functions and returns the sum or concatenation of their output. 
 // Test your function
+function together(fun1, fun2){
+   return fun1 + fun2
+}
+
+let combine = together(greet, raise)
+console.log(combine)
